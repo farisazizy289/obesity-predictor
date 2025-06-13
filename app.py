@@ -69,7 +69,7 @@ def manual_standardization(X, mean_values, std_values):
     return np.array(X_scaled).reshape(1, -1)
 
 
-model = joblib.load("rf_model_best.pkl")  
+model = joblib.load("rf_model.pkl")  
 
 def tampilkan_hasil_prediksi(label_prediksi):
     info = {
